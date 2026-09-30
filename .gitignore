@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Data / large artifacts
+*.h5
+*.hdf5
+*.tfrecord
+*.pt
+*.pth
+yt8m/
+results/
+
+# Local metadata / download plans
+metadata.csv
+required_files.txt
+*download_plan*.json
+
+# OS
+.DS_Store
+Thumbs.db
